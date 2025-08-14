@@ -7,25 +7,25 @@ public class Main {
         System.out.println("Visa GCA Practice Set\n");
 
         RotatedArrayMin minFinder = new RotatedArrayMin();
-        System.out.println("Min in rotated array: " + minFinder.findMin(new int[]{4,5,6,7,0,1,2}));
+        System.out.println("\nMin in rotated array: " + minFinder.findMin(new int[]{4,5,6,7,0,1,2}));
 
         OneDigitDifferencePairs pairsFinder = new OneDigitDifferencePairs();
-        System.out.println("One-digit difference pairs: " + pairsFinder.countPairs(new int[]{1, 2, 53, 23, 9}));
+        System.out.println("\nOne-digit difference pairs: " + pairsFinder.countPairs(new int[]{1, 2, 53, 23, 9}));
 
         TimeMachinePuzzle puzzle = new TimeMachinePuzzle();
-        System.out.println("Net minutes traveled: " + puzzle.calculateNetMinutes(10, 2));
+        System.out.println("\nNet minutes traveled: " + puzzle.calculateNetMinutes(10, 2));
 
         FindPeakElement finder = new FindPeakElement();
         int idx = finder.findPeakElement(new int[]{1,2,3,1});
-        System.out.println("Peak index: " + idx);
+        System.out.println("\nPeak index: " + idx);
 
         NeighborSum ns = new NeighborSum();
-        System.out.println("Neighbor sum: " + Arrays.toString(ns.transform(new int[]{1,2,3,4})));
+        System.out.println("\nNeighbor sum: " + Arrays.toString(ns.transform(new int[]{1,2,3,4})));
 
         PatternStringMatch psm = new PatternStringMatch();
-        System.out.println("Pattern matches: " + psm.countMatches("abaebio", "010"));
+        System.out.println("\nPattern matches: " + psm.countMatches("abaebio", "010"));
 
         SearchRotatedArray sra = new SearchRotatedArray();
-        System.out.println("Index of 0 in rotated array: " + sra.search(new int[]{4,5,6,7,0,1,2}, 0));
+        System.out.println("\nIndex of 0 in rotated array: " + sra.search(new int[]{4,5,6,7,0,1,2}, 0));
     }
 }
