@@ -1,0 +1,12 @@
+#bash
+# Navigate to the project folder
+cd visa-gca-practice
+
+# Compile
+mvn clean compile
+
+# Run Main class
+mvn exec:java -Dexec.mainClass="com.example.visagca.Main"
+
+# Run all tests
+mvn test
