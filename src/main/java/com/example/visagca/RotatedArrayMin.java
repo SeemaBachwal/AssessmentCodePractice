@@ -6,9 +6,9 @@ public class RotatedArrayMin {
         while (left < right) {
             int mid = left + (right - left) / 2;
             if (nums[mid] > nums[right]) {
-                left = mid + 1;
+                left = mid + 1;  // Min is on the right side
             } else {
-                right = mid;
+                right = mid;  // Min is mid or to the left
             }
         }
         return nums[left];
